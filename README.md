@@ -58,4 +58,18 @@ Includes Products, Categories, Cart, Orders, Users, JWT Security, and clean laye
 - Role-based access
 
 ## 🧱 Project Structure
-
+'''src/
+└── main/
+├── java/
+│ └── com.example.shoppingcart/
+│ ├── controller/
+│ ├── service/
+│ ├── repository/
+│ ├── entity/
+│ ├── dto/
+│ ├── security/
+│ ├── exception/
+│ └── config/
+└── resources/
+├── application.properties
+└── static/images/'''
