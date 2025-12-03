@@ -58,7 +58,8 @@ Includes Products, Categories, Cart, Orders, Users, JWT Security, and clean laye
 - Role-based access
 
 ## 🧱 Project Structure
-'''src/
+```
+src/
 └── main/
 ├── java/
 │ └── com.example.shoppingcart/
@@ -72,4 +73,58 @@ Includes Products, Categories, Cart, Orders, Users, JWT Security, and clean laye
 │ └── config/
 └── resources/
 ├── application.properties
-└── static/images/'''
+└── static/images/
+```
+
+## 🧪 API Testing
+
+The project includes full testing of:
+- Product APIs
+- Category APIs
+- Cart & CartItem APIs
+- User APIs
+- Order APIs
+- Authentication (JWT)
+- Error handling checks
+- Edge case validation
+
+**Tools used:**
+- Postman
+- MySQL Workbench
+
+## 🔐 Authentication Flow
+
+1. Register a user
+2. Login → receive JWT
+3. Attach JWT in Header:
+```Authorization: Bearer <token>```
+4. Access protected routes:
+- `/api/cart/**`
+- `/api/orders/**`
+- `/api/users/**`
+
+## 🧭 How to Run
+
+1. Clone the repo
+2. Configure `application.properties` for MySQL
+3. Run the project
+4. Use Postman to test APIs
+5. Add your JWT in headers after logging in
+
+## 📁 Future Enhancements (Optional)
+
+- Product search + filters
+- Global exception response format
+- Swagger documentation
+- Role-based user dashboards
+- Email notifications for orders
+
+## 🙌 Acknowledgement
+
+This project was built as part of personal Spring Boot backend practice — covering entities, services, DTOs, controllers, authentication, and real-world e-commerce backend flows.
+
+---
+
+**⭐ If you found this project helpful, consider giving it a star!**
+
+
